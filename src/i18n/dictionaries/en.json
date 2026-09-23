@@ -1,0 +1,658 @@
+{
+ "brand": {
+  "name": "Nkhedmou.ma",
+  "tagline": "Work starts here"
+ },
+ "nav": {
+  "findProfiles": "Find profiles",
+  "jobOffers": "Job offers",
+  "postOffer": "Post an offer",
+  "dashboard": "Dashboard",
+  "allCooks": "All profiles",
+  "allJobs": "All offers",
+  "notifications": "Notifications",
+  "logout": "Log out",
+  "login": "Log in",
+  "signUp": "Sign up",
+  "language": "Language",
+  "menu": "Menu",
+  "greeting": "Hello"
+ },
+ "common": {
+  "search": "Search",
+  "searchAll": "Search everything",
+  "filters": "Filters",
+  "reset": "Reset",
+  "apply": "Apply",
+  "applyNow": "Apply now",
+  "save": "Save",
+  "saved": "Saved",
+  "saveError": "Could not save your changes. Please check the fields and try again.",
+  "sendError": "Your message could not be sent. Please try again.",
+  "cancel": "Cancel",
+  "continue": "Continue",
+  "back": "Back",
+  "next": "Next",
+  "previous": "Previous",
+  "page": "Page",
+  "of": "of",
+  "results": "results",
+  "noResults": "No results",
+  "noResultsHint": "Try widening your criteria or use \"Search everything\".",
+  "loading": "Loading…",
+  "all": "All",
+  "city": "City",
+  "country": "Country",
+  "morocco": "Morocco",
+  "sector": "Sector",
+  "position": "Position",
+  "experience": "Experience",
+  "availability": "Availability",
+  "contractType": "Contract type",
+  "establishmentType": "Establishment type",
+  "salary": "Salary",
+  "perMonth": "/ month",
+  "requirements": "Job requirements",
+  "benefits": "Benefits",
+  "description": "Description",
+  "seeMore": "See more",
+  "seeProfile": "View profile",
+  "seeOffer": "View offer",
+  "required": "Required",
+  "optional": "Optional",
+  "yes": "Yes",
+  "no": "No",
+  "close": "Close",
+  "submit": "Send",
+  "email": "Email",
+  "phone": "Phone",
+  "photo": "Photo",
+  "days": "days",
+  "selectFirst": "Select a sector first",
+  "select": "Select",
+  "view": "View"
+ },
+ "home": {
+  "heroTitle": "Find your place in Morocco's hospitality industry",
+  "heroSubtitle": "Cooks, bakers, hotel staff and employers — all in one place.",
+  "lookingForJob": "I'm looking for a job",
+  "lookingForJobDesc": "Create your profile, publish your CV and apply to offers near you.",
+  "iAmEmployer": "I'm an employer",
+  "iAmEmployerDesc": "Post your offers and find the right people for your establishment.",
+  "getStarted": "Get started",
+  "stats": {
+   "cooks": "Registered cooks",
+   "restaurants": "Partner establishments",
+   "hired": "People who found a job"
+  },
+  "howItWorks": "How it works",
+  "howItWorksSubtitle": "Four simple steps, from signing up to getting hired.",
+  "step": "Step",
+  "steps": {
+   "one": {
+    "title": "Create your account",
+    "desc": "First name, last name, email and password. Nothing more to get started."
+   },
+   "two": {
+    "title": "Complete your profile",
+    "desc": "Sector, position, experience and photo. Build your CV directly on the platform."
+   },
+   "three": {
+    "title": "Browse the offers",
+    "desc": "Filter by city, position and contract type, or run a full search."
+   },
+   "four": {
+    "title": "Apply and get contacted",
+    "desc": "Employers review your profile and reply to you directly."
+   }
+  },
+  "different": {
+   "chefs": "Qualified profiles",
+   "chefsDesc": "Cooks and hospitality professionals with verified experience.",
+   "restaurants": "Trusted establishments",
+   "restaurantsDesc": "Restaurants, hotels and bakeries verified by our team.",
+   "verified": "Approved offers",
+   "verifiedDesc": "Every offer is checked and approved before it goes live."
+  },
+  "latestOffers": "Latest offers",
+  "latestOffersSubtitle": "A look at the offers posted this week.",
+  "seeAllOffers": "See all offers",
+  "guestNotice": "Create a free account to see every offer and apply.",
+  "partners": "They trust us",
+  "partnersSubtitle": "Restaurants, hotels and bakeries recruiting through Nkhedmou.ma.",
+  "advertising": "Advertising"
+ },
+ "auth": {
+  "joinTitle": "Join Nkhedmou.ma",
+  "joinSubtitle": "Choose your account type to get started",
+  "lookingForJob": "I'm looking for a job",
+  "lookingForJobDesc": "Build your professional profile and find opportunities",
+  "iAmEmployer": "I'm an employer",
+  "iAmEmployerDesc": "Find qualified profiles and post your offers",
+  "login": "Log in",
+  "loginTitle": "Good to see you again",
+  "signUpTitle": "Create an account",
+  "signUpSubtitle": "A few details are all it takes to get started.",
+  "firstName": "First name",
+  "lastName": "Last name",
+  "email": "Email",
+  "password": "Password",
+  "confirmPassword": "Confirm password",
+  "rememberMe": "Remember me",
+  "forgotPassword": "Forgot your password?",
+  "signIn": "Sign in",
+  "continueWithGoogle": "Continue with Google",
+  "noAccount": "Don't have an account?",
+  "haveAccount": "Already have an account?",
+  "createAccount": "Create an account",
+  "or": "or",
+  "accountType": "Account type",
+  "passwordRules": "Your password must contain:",
+  "ruleLength": "at least 8 characters",
+  "ruleUpper": "an uppercase letter",
+  "ruleLower": "a lowercase letter",
+  "ruleNumber": "a number",
+  "ruleSpecial": "a special character",
+  "passwordMismatch": "Passwords do not match",
+  "changePassword": "Change password",
+  "currentPassword": "Current password",
+  "passwordChanged": "Password updated",
+  "passwordChangeError": "Could not update the password. Check your current password and try again.",
+  "strengthWeak": "Weak",
+  "strengthMedium": "Medium",
+  "strengthStrong": "Strong",
+  "attemptsWarning": "Incorrect password. You have {n} attempt(s) left.",
+  "signInNotAllowed": "This account can't sign in here. Administrators sign in on the dashboard.",
+  "signInSuspended": "This account has been suspended. Contact support.",
+  "signInRateLimited": "Too many sign-in attempts. Wait a few minutes and try again.",
+  "signInFailed": "Sign-in failed. Check your connection and try again.",
+  "resetCodeInvalid": "This reset link is invalid or has expired. Request a new code.",
+  "resetFailed": "Could not reset your password. Check your connection and try again.",
+  "resetRequestNew": "Request a new code",
+  "demoIncomplete": "Demo: incomplete profile",
+  "demoIncompleteHint": "Sign in as a candidate missing required fields, to see the Incomplete Profile gate on an offer.",
+  "lockedTitle": "Account temporarily suspended",
+  "lockedBody": "After 3 failed attempts your account is temporarily locked. We have sent you a verification code to reset your password.",
+  "lockedCta": "Reset my password",
+  "otpTitle": "Verification",
+  "otpSubtitle": "Enter the 6-digit code sent to {target}.",
+  "otpResend": "Resend the code",
+  "otpResendIn": "Resend the code in {n}s",
+  "verify": "Verify",
+  "resetTitle": "New password",
+  "resetSubtitle": "Choose a new, secure password.",
+  "sendEmailTitle": "Forgot password",
+  "sendEmailSubtitle": "Enter your email and we'll send you a verification code.",
+  "sendCode": "Send the code",
+  "resetViaWhatsapp": "Get the code on WhatsApp",
+  "welcomeEmailSent": "A welcome email has been sent to you."
+ },
+ "gate": {
+  "title": "Create an account to continue",
+  "body": "Signing up is free and takes less than a minute. You'll be able to see every offer, view full profiles and apply directly.",
+  "signUp": "Create an account",
+  "login": "I already have an account",
+  "morePages": "Create an account to see all {n} pages of results."
+ },
+ "profile": {
+  "editTitle": "Edit my profile",
+  "editSubtitle": "Complete your profile so you can apply to offers.",
+  "completion": "Profile {n}% complete",
+  "incompleteTitle": "Incomplete profile",
+  "incompleteBody": "You need to fill in the required fields before applying to an offer.",
+  "incompleteCta": "Complete my profile",
+  "personalInfo": "Personal information",
+  "professionalInfo": "Professional information",
+  "training": "Academic / professional training",
+  "addTraining": "Add training",
+  "workHistory": "Previous experience",
+  "addExperience": "Add experience",
+  "school": "Training institution",
+  "diploma": "Diploma",
+  "establishment": "Establishment name",
+  "positionHeld": "Position held",
+  "from": "From",
+  "to": "To",
+  "remove": "Remove",
+  "profilePhoto": "Profile photo",
+  "photoHint": "A professional photo markedly improves your chances of being hired.",
+  "photoQualityError": "This image is too low quality. Please upload a sharper one (min. 600 × 600 px).",
+  "cv": "CV",
+  "cvUpload": "Upload my CV",
+  "cvBuilder": "Build my CV online",
+  "cvUploadHint": "PDF, DOC or DOCX — 5 MB maximum.",
+  "cvBuilderHint": "Fill in your details and we'll generate your CV automatically.",
+  "foodPhotos": "Photos of your dishes",
+  "foodPhotosHint": "Up to {max} photos. For kitchen, bakery and pastry roles only.",
+  "foodPhotosLocked": "Dish photos are reserved for kitchen, bakery and pastry roles.",
+  "expectedSalary": "Expected salary",
+  "currentStatus": "Current status",
+  "about": "About",
+  "skills": "Skills",
+  "languages": "Languages",
+  "saveProfile": "Save my profile",
+  "savedOk": "Profile saved",
+  "contactHidden": "Contact details visible only to verified employers"
+ },
+ "jobs": {
+  "title": "Job offers",
+  "subtitle": "{n} offers available in Morocco",
+  "searchPlaceholder": "Position, establishment…",
+  "searchAllHint": "Search the whole database with no filters",
+  "postedOn": "Posted on",
+  "expiresIn": "Expires in {n} days",
+  "expired": "Expired",
+  "expiringSoon": "Expiring soon",
+  "applicants": "{n} applications",
+  "detailTitle": "Offer details",
+  "aboutEmployer": "About the establishment",
+  "similarOffers": "Similar offers",
+  "applied": "Application sent",
+  "appliedBody": "Your application has been passed on to the employer.",
+  "signUpToApply": "Sign up to apply",
+  "employerViewOnly": "Employer view",
+  "employerViewOnlyBody": "You are viewing this offer as an employer. Applications are reserved for candidate accounts.",
+  "saveJob": "Save this offer",
+  "jobSaved": "Offer saved"
+ },
+ "candidates": {
+  "title": "Find profiles",
+  "subtitle": "{n} profiles available",
+  "searchPlaceholder": "Name, position…",
+  "saveProfile": "Save this profile",
+  "profileSaved": "Profile saved",
+  "yearsExperience": "of experience",
+  "availableNow": "Available immediately",
+  "verified": "Verified",
+  "contactRequest": "Request contact details"
+ },
+ "employer": {
+  "dashboard": "Dashboard",
+  "profileTitle": "Establishment profile",
+  "editProfile": "Edit profile",
+  "establishmentPhoto": "Establishment photo / logo",
+  "establishmentPhotoHint": "A logo or photo makes your establishment more credible.",
+  "coverPhoto": "Cover photo",
+  "coverPhotoHint": "Shown at the top of your public establishment profile.",
+    "coverQualityError": "This image is too low quality. Please upload a sharper one (min. 600 × 300 px).",
+  "statusUpdateError": "Could not update the application status. Please try again.",
+  "phonePublic": "Show my number to candidates",
+  "phonePublicHint": "When off, your number stays hidden and candidates contact you through the platform.",
+  "socialLinks": "Social media",
+  "saveAndRecruit": "Save and continue to recruiting",
+  "findBestProfiles": "Find the best profiles",
+  "postJob": "Post an offer",
+  "myOffers": "My offers",
+  "activeOffers": "Active offers",
+  "pendingOffers": "Awaiting approval",
+  "expiredOffers": "Expired offers",
+  "applicants": "Applications received",
+  "savedProfiles": "Saved profiles",
+  "savedProfilesHint": "Profiles you saved while searching, without them having applied.",
+  "noSavedProfiles": "You haven't saved any profiles yet.",
+  "noApplicants": "No applications yet.",
+  "republish": "Repost",
+  "republished": "Offer sent back for approval",
+  "edit": "Edit",
+  "deactivate": "Deactivate",
+  "viewApplicants": "View candidates",
+  "postJobTitle": "Post a job offer",
+  "postJobSubtitle": "Every offer is checked by the admin team before publication.",
+  "jobTitle": "Job title",
+  "jobDescription": "Job description",
+  "deadline": "Closing date",
+  "deadlineHint": "60 days maximum. The offer is removed from the active offers on that date.",
+  "publish": "Publish the offer",
+  "pendingApprovalTitle": "Your offer is being reviewed",
+  "pendingApprovalBody": "It will be visible to candidates as soon as the admin team approves it.",
+  "approved": "Approved",
+  "pending": "Pending",
+  "stats": {
+   "activeOffers": "Active offers",
+   "applicants": "Applications",
+   "profileViews": "Profile views",
+   "savedProfiles": "Saved profiles"
+  }
+ },
+ "dashboard": {
+  "title": "My dashboard",
+  "welcome": "Hello {name}!",
+  "myApplications": "My Applications",
+  "noApplications": "You haven't applied to any offer yet.",
+  "browseOffers": "Browse the offers",
+  "profileStrength": "Profile completeness",
+  "recommended": "Offers recommended for you",
+  "stats": {
+   "completeProfile": "Complete Profile",
+   "profileViews": "Profile Views",
+   "applications": "Applications",
+   "profileStatus": "Profile Status",
+   "verified": "Verified",
+   "pending": "Pending",
+   "views": "Views of my profile",
+   "saved": "Interested employers"
+  },
+  "subtitle": "Manage your profile and track your applications",
+  "myProfile": "My Profile",
+  "completeProfile": "Complete Profile",
+  "verifiedProfile": "Verified Profile",
+  "notVerified": "Profile not verified",
+  "editProfile": "Edit my profile",
+  "viewPublicProfile": "View my public profile",
+  "quickActions": "Quick Actions",
+  "viewProfiles": "View profiles",
+  "searchOffers": "Search for offers",
+  "seeAllOffers": "See all offers",
+  "appliedOn": "Applied on {date}"
+ },
+ "notifications": {
+  "title": "Notifications",
+  "empty": "No notifications",
+  "markRead": "Mark as read",
+  "markAllRead": "Mark all as read",
+  "markAllError": "Could not mark notifications as read. Please try again.",
+  "new": "New"
+ },
+ "feedback": {
+  "button": "Your feedback",
+  "title": "Help us improve Nkhedmou.ma",
+  "usingAs": "I use Nkhedmou.ma as:",
+  "asCook": "A candidate looking for a job",
+  "asEmployer": "An employer looking for profiles",
+  "helpful": "Did Nkhedmou.ma help you reach your goal?",
+  "helpfulYes": "Yes, very helpful",
+  "helpfulNo": "No, I need help",
+  "rating": "How would you rate your experience?",
+  "ratingHint": "Click to rate your experience",
+  "comments": "Comments or suggestions (optional)",
+  "commentsPlaceholder": "Tell us how to improve the platform…",
+  "later": "Later",
+  "submit": "Send my feedback",
+  "thanks": "Thank you for your feedback!",
+  "selectOption": "Please select an option"
+ },
+ "admin": {
+  "title": "Administration",
+  "overview": "Overview",
+  "candidates": "Candidates",
+  "employers": "Employers",
+  "offers": "Offers",
+  "moderation": "Moderation",
+  "feedback": "User feedback",
+  "activity": "Activity log",
+  "roles": "Administrators",
+  "banners": "Banners",
+  "backToSite": "Back to the site",
+  "search": "Search…",
+  "export": "Export to Excel",
+  "exported": "Export generated",
+  "actions": "Actions",
+  "noRows": "No results",
+  "confirmDelete": "Confirm deletion?",
+  "stats": {
+   "candidates": "Candidate statistics",
+   "employers": "Employer statistics",
+   "offers": "Offer statistics",
+   "platform": "Platform statistics",
+   "total": "Total",
+   "newToday": "New today",
+   "newThisWeek": "New this week",
+   "newThisMonth": "New this month",
+   "active": "Active",
+   "complete": "Profiles 100% complete",
+   "verified": "Verified",
+   "availableNow": "Available immediately",
+   "pending": "Awaiting verification",
+   "blocked": "Blocked",
+   "byType": "Breakdown by type",
+   "activeOffers": "Active offers",
+   "postedToday": "Posted today",
+   "postedThisMonth": "Posted this month",
+   "expiringSoon": "Expiring within 7 days",
+   "expired": "Expired",
+   "closed": "Closed",
+   "pendingApproval": "Awaiting approval",
+   "reported": "Reported",
+   "topTitles": "Most searched positions",
+   "topCities": "Most searched cities",
+   "avgSalary": "Average salary offered",
+   "searches": "searches"
+  },
+  "candidate": {
+   "title": "CV database",
+   "subtitle": "{n} registered candidates",
+   "name": "Name",
+   "registered": "Registered",
+   "lastLogin": "Last login",
+   "completion": "Completeness",
+   "view": "View profile",
+   "edit": "Edit",
+   "verify": "Verify",
+   "unverify": "Remove verification",
+   "deactivate": "Deactivate",
+   "activate": "Reactivate",
+   "delete": "Delete",
+   "restore": "Restore",
+   "addSkill": "Add a skill",
+   "history": "Profile history",
+   "applications": "Applications",
+   "contactRequests": "Employers who requested contact details",
+   "verified": "Verified",
+   "notVerified": "Not verified",
+   "deactivated": "Deactivated"
+  },
+  "employer": {
+   "title": "Employer management",
+   "subtitle": "{n} registered establishments",
+   "offersPublished": "Offers published",
+   "offersActive": "Active offers",
+   "applicationsReceived": "Applications received",
+   "profilesViewed": "Profiles viewed",
+   "contactRequests": "Contact detail requests",
+   "lastActivity": "Last activity",
+   "verify": "Verify",
+   "block": "Block",
+   "unblock": "Unblock"
+  },
+  "offer": {
+   "title": "Offer management",
+   "subtitle": "{n} offers in total",
+   "approve": "Approve",
+   "reject": "Reject",
+   "extend": "Extend exceptionally",
+   "republish": "Repost",
+   "deactivate": "Deactivate",
+   "delete": "Delete",
+   "approved": "Approved",
+   "rejected": "Rejected",
+   "pendingQueue": "Approval queue",
+   "allOffers": "All offers",
+   "reported": "Reported offers",
+   "employer": "Employer",
+   "posted": "Posted",
+   "expires": "Expires"
+  },
+  "moderationPage": {
+   "title": "Photo moderation",
+   "subtitle": "{n} photos awaiting approval",
+   "approve": "Approve",
+   "remove": "Remove",
+   "blockUser": "Block the user",
+   "reports": "{n} report(s)",
+   "profilePhoto": "Profile photo",
+   "foodPhoto": "Dish photo",
+   "empty": "No photos pending",
+   "reportedOffers": "Reported offers"
+  },
+  "feedbackPage": {
+   "title": "User feedback",
+   "subtitle": "{n} messages, {p} unanswered",
+   "reply": "Reply",
+   "replyPlaceholder": "Your reply will be emailed and shown on the platform…",
+   "send": "Send the reply",
+   "replied": "Reply sent",
+   "yourReply": "Your reply",
+   "awaiting": "Unanswered",
+   "notifyNote": "The user will be notified on the site and by email."
+  },
+  "activityPage": {
+   "title": "Activity log",
+   "subtitle": "Admin actions, contact-detail access and photo uploads",
+   "all": "All",
+   "adminActions": "Admin actions",
+   "contactAccess": "Contact-detail access",
+   "photoUploads": "Photo uploads",
+   "actor": "Author",
+   "target": "Target",
+   "detail": "Detail",
+   "when": "Date"
+  },
+  "rolesPage": {
+   "title": "Administrators and permissions",
+   "subtitle": "The main account keeps full control",
+   "addAdmin": "Create a sub-administrator",
+   "superAdmin": "Main administrator",
+   "subAdmin": "Sub-administrator",
+   "permissions": "Permissions",
+   "lastActive": "Last activity",
+   "fullControl": "Full control",
+   "revoke": "Revoke access"
+  }
+ },
+ "footer": {
+  "about": "About",
+  "aboutText": "Nkhedmou.ma connects hospitality and catering professionals with the establishments hiring in Morocco.",
+  "quickLinks": "Quick links",
+  "forCandidates": "Candidates",
+  "forEmployers": "Employers",
+  "legal": "Legal information",
+  "terms": "Terms and conditions",
+  "privacy": "Privacy policy",
+  "contact": "Contact us",
+  "aboutUs": "Who we are",
+  "rights": "All rights reserved."
+ },
+ "about": {
+  "intro1": "Nkhedmou.ma — “nkhedmou” means “we work” in Darija — came out of a simple observation: in Morocco, cooks, bakers, pastry chefs and hotel staff still find work by word of mouth, while restaurants and hotels struggle to recruit qualified people.",
+  "intro2": "Our aim is to bring these two worlds together in one place, with a platform that is simple, secure and built mobile-first, because that is where most of our users are.",
+  "candidatesTitle": "For candidates",
+  "candidatesBody": "Build a complete profile or generate your CV directly on the platform, then apply to offers near you. Registration is free.",
+  "employersTitle": "For employers",
+  "employersBody": "Post your offers, filter profiles by city, sector, position and experience, and save the candidates who interest you.",
+  "verifiedTitle": "Verified offers",
+  "verifiedBody": "Every job offer is checked and approved by our team before it is published. Candidates' contact details are protected.",
+  "languagesTitle": "In French, Darija and English",
+  "languagesBody": "The whole platform is available in French, Moroccan Arabic and English, so that language is never a barrier."
+ },
+ "privacySections": [
+  {
+   "title": "What data do we collect?",
+   "body": [
+    "At registration we collect only your first name, last name, email address and password.",
+    "When you complete your profile you may add your phone number, city, sector, position, experience, training, previous roles, a profile photo, a CV and, for certain kitchen and pastry trades, photos of your preparations."
+   ]
+  },
+  {
+   "title": "Protecting your contact details",
+   "body": [
+    "Your phone number is never displayed publicly. It is accessible only to verified employers, under the platform's recruitment rules.",
+    "Every employer access to your contact details is recorded and traceable by the administration.",
+    "Employers also have an option to hide their own phone number from candidates."
+   ]
+  },
+  {
+   "title": "Uploaded files",
+   "body": [
+    "CVs and photos are checked before being stored: file type, size and image quality are all verified.",
+    "Files that do not match the permitted formats are rejected. A CV must be a PDF, DOC or DOCX file and must not exceed 5 MB.",
+    "The administration may remove any inappropriate photo and block an account in the event of repeated abusive uploads."
+   ]
+  },
+  {
+   "title": "Activity log",
+   "body": [
+    "The platform keeps a history of significant administrative actions, of access to candidates' contact details and of photo uploads."
+   ]
+  },
+  {
+   "title": "Moderation of offers and profiles",
+   "body": [
+    "All job offers are checked and approved by the administration before publication.",
+    "You are notified on the platform and by email when your profile or your offer is approved."
+   ]
+  },
+  {
+   "title": "Your rights",
+   "body": [
+    "You may view, correct or delete your profile information at any time from the “Edit my profile” page.",
+    "For any request concerning your data, write to us at contact@nkhedmou.ma."
+   ]
+  }
+ ],
+ "privacyIntro": "This policy explains what data Nkhedmou.ma collects, how it is used and how it is protected.",
+ "termsSections": [
+  {
+   "title": "1. Purpose of the platform",
+   "body": [
+    "Nkhedmou.ma connects professionals in catering, bakery-pastry and hospitality with the establishments recruiting in Morocco.",
+    "The platform is an intermediary: it is not the employer and is not party to the employment contract agreed between a candidate and an establishment."
+   ]
+  },
+  {
+   "title": "2. Registration and account",
+   "body": [
+    "Registration is free and requires a first name, last name, email address and password.",
+    "Your password must contain at least one uppercase letter, one lowercase letter, one digit and one special character.",
+    "After three failed sign-in attempts your account is temporarily suspended and a verification code is sent to you so you can reset your password.",
+    "You are responsible for the accuracy of the information in your profile."
+   ]
+  },
+  {
+   "title": "3. Visitor access",
+   "body": [
+    "Visitors who are not registered may view the first page of offers and profiles. Viewing a full offer or profile requires creating an account."
+   ]
+  },
+  {
+   "title": "4. Job offers",
+   "body": [
+    "All offers posted by employers are checked and approved by the administration before becoming visible to candidates.",
+    "The maximum publication period for an offer is 60 days. After that the offer is automatically removed from the active offers.",
+    "An expired offer remains available in the employer's history, together with the applications received, and can be republished.",
+    "The administration reserves the right to refuse, amend or withdraw any non-compliant offer."
+   ]
+  },
+  {
+   "title": "5. Published content",
+   "body": [
+    "You warrant that you hold the rights to the photos and documents you upload.",
+    "Photos of culinary preparations are reserved for kitchen, bakery and pastry trades, and are limited to 8 photos per profile.",
+    "The administration may remove any inappropriate content and block accounts in the event of repeated breaches."
+   ]
+  },
+  {
+   "title": "6. Confidentiality of contact details",
+   "body": [
+    "Candidates' phone numbers are not public and are accessible only to verified employers, under the platform's recruitment rules.",
+    "Every access to contact details is recorded and traceable.",
+    "Using contact details for cold outreach, resale or bulk collection is strictly prohibited and results in account closure."
+   ]
+  },
+  {
+   "title": "7. Advertising",
+   "body": [
+    "The platform displays advertising space. Nkhedmou.ma is not responsible for the content or offers of third-party advertisers."
+   ]
+  },
+  {
+   "title": "8. Contact",
+   "body": [
+    "For any question regarding these terms: contact@nkhedmou.ma"
+   ]
+  }
+ ],
+ "termsIntro": "By creating an account on Nkhedmou.ma, you accept the terms set out below.",
+ "contact": {
+  "subtitle": "A question, a suggestion or a problem? Write to us — we reply to every message."
+ }
+}

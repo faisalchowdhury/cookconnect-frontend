@@ -1,0 +1,658 @@
+{
+ "brand": {
+  "name": "Nkhedmou.ma",
+  "tagline": "Le travail commence ici"
+ },
+ "nav": {
+  "findProfiles": "Trouver des profils",
+  "jobOffers": "Offres d'emploi",
+  "postOffer": "Publier une offre",
+  "dashboard": "Tableau de bord",
+  "allCooks": "Tous les profils",
+  "allJobs": "Toutes les offres",
+  "notifications": "Notifications",
+  "logout": "Se déconnecter",
+  "login": "Connexion",
+  "signUp": "S'inscrire",
+  "language": "Langue",
+  "menu": "Menu",
+  "greeting": "Bonjour"
+ },
+ "common": {
+  "search": "Rechercher",
+  "searchAll": "Tout rechercher",
+  "filters": "Filtres",
+  "reset": "Réinitialiser",
+  "apply": "Postuler",
+  "applyNow": "Postuler maintenant",
+  "save": "Enregistrer",
+  "saved": "Enregistré",
+  "saveError": "Impossible d'enregistrer vos modifications. Vérifiez les champs et réessayez.",
+  "sendError": "Votre message n'a pas pu être envoyé. Réessayez.",
+  "cancel": "Annuler",
+  "continue": "Continuer",
+  "back": "Retour",
+  "next": "Suivant",
+  "previous": "Précédent",
+  "page": "Page",
+  "of": "sur",
+  "results": "résultats",
+  "noResults": "Aucun résultat",
+  "noResultsHint": "Essayez d'élargir vos critères ou utilisez « Tout rechercher ».",
+  "loading": "Chargement…",
+  "all": "Tous",
+  "city": "Ville",
+  "country": "Pays",
+  "morocco": "Maroc",
+  "sector": "Secteur",
+  "position": "Poste",
+  "experience": "Expérience",
+  "availability": "Disponibilité",
+  "contractType": "Type de contrat",
+  "establishmentType": "Type d'établissement",
+  "salary": "Salaire",
+  "perMonth": "/ mois",
+  "requirements": "Exigences du poste",
+  "benefits": "Avantages",
+  "description": "Description",
+  "seeMore": "Voir plus",
+  "seeProfile": "Voir le profil",
+  "seeOffer": "Voir l'offre",
+  "required": "Obligatoire",
+  "optional": "Facultatif",
+  "yes": "Oui",
+  "no": "Non",
+  "close": "Fermer",
+  "submit": "Envoyer",
+  "email": "Email",
+  "phone": "Téléphone",
+  "photo": "Photo",
+  "days": "jours",
+  "selectFirst": "Sélectionnez d'abord un secteur",
+  "select": "Sélectionner",
+  "view": "Voir"
+ },
+ "home": {
+  "heroTitle": "Trouvez votre place dans la restauration au Maroc",
+  "heroSubtitle": "Cuisiniers, boulangers, personnel d'hôtel et employeurs — au même endroit.",
+  "lookingForJob": "Je cherche un emploi",
+  "lookingForJobDesc": "Créez votre profil, publiez votre CV et postulez aux offres près de chez vous.",
+  "iAmEmployer": "Je suis un employeur",
+  "iAmEmployerDesc": "Publiez vos offres et trouvez les bons profils pour votre établissement.",
+  "getStarted": "Commencer",
+  "stats": {
+   "cooks": "Cuisiniers inscrits",
+   "restaurants": "Établissements partenaires",
+   "hired": "Personnes ayant trouvé un emploi"
+  },
+  "howItWorks": "Comment ça marche",
+  "howItWorksSubtitle": "Quatre étapes simples, de l'inscription au recrutement.",
+  "step": "Étape",
+  "steps": {
+   "one": {
+    "title": "Créez votre compte",
+    "desc": "Nom, prénom, email et mot de passe. Rien de plus pour commencer."
+   },
+   "two": {
+    "title": "Complétez votre profil",
+    "desc": "Secteur, poste, expérience et photo. Créez votre CV directement sur la plateforme."
+   },
+   "three": {
+    "title": "Explorez les offres",
+    "desc": "Filtrez par ville, poste et type de contrat, ou lancez une recherche complète."
+   },
+   "four": {
+    "title": "Postulez et soyez contacté",
+    "desc": "Les employeurs consultent votre profil et vous répondent directement."
+   }
+  },
+  "different": {
+   "chefs": "Profils qualifiés",
+   "chefsDesc": "Des cuisiniers et professionnels de l'hôtellerie avec une expérience vérifiée.",
+   "restaurants": "Établissements de confiance",
+   "restaurantsDesc": "Restaurants, hôtels et boulangeries vérifiés par notre équipe.",
+   "verified": "Offres validées",
+   "verifiedDesc": "Chaque offre est contrôlée et approuvée avant sa publication."
+  },
+  "latestOffers": "Dernières offres",
+  "latestOffersSubtitle": "Un aperçu des offres publiées cette semaine.",
+  "seeAllOffers": "Voir toutes les offres",
+  "guestNotice": "Créez un compte gratuit pour voir toutes les offres et postuler.",
+  "partners": "Ils nous font confiance",
+  "partnersSubtitle": "Restaurants, hôtels et boulangeries qui recrutent via Nkhedmou.ma.",
+  "advertising": "Publicité"
+ },
+ "auth": {
+  "joinTitle": "Rejoignez Nkhedmou.ma",
+  "joinSubtitle": "Choisissez votre type de compte pour commencer",
+  "lookingForJob": "Je cherche un emploi",
+  "lookingForJobDesc": "Créez votre profil professionnel et trouvez des opportunités",
+  "iAmEmployer": "Je suis un employeur",
+  "iAmEmployerDesc": "Trouvez des profils qualifiés et publiez vos offres",
+  "login": "Connexion",
+  "loginTitle": "Content de vous revoir",
+  "signUpTitle": "Créer un compte",
+  "signUpSubtitle": "Quelques informations suffisent pour commencer.",
+  "firstName": "Prénom",
+  "lastName": "Nom",
+  "email": "Email",
+  "password": "Mot de passe",
+  "confirmPassword": "Confirmer le mot de passe",
+  "rememberMe": "Se souvenir de moi",
+  "forgotPassword": "Mot de passe oublié ?",
+  "signIn": "Se connecter",
+  "continueWithGoogle": "Continuer avec Google",
+  "noAccount": "Vous n'avez pas de compte ?",
+  "haveAccount": "Vous avez déjà un compte ?",
+  "createAccount": "Créer un compte",
+  "or": "ou",
+  "accountType": "Type de compte",
+  "passwordRules": "Votre mot de passe doit contenir :",
+  "ruleLength": "au moins 8 caractères",
+  "ruleUpper": "une lettre majuscule",
+  "ruleLower": "une lettre minuscule",
+  "ruleNumber": "un chiffre",
+  "ruleSpecial": "un caractère spécial",
+  "passwordMismatch": "Les mots de passe ne correspondent pas",
+  "changePassword": "Changer le mot de passe",
+  "currentPassword": "Mot de passe actuel",
+  "passwordChanged": "Mot de passe mis à jour",
+  "passwordChangeError": "Impossible de mettre à jour le mot de passe. Vérifiez votre mot de passe actuel et réessayez.",
+  "strengthWeak": "Faible",
+  "strengthMedium": "Moyen",
+  "strengthStrong": "Fort",
+  "attemptsWarning": "Mot de passe incorrect. Il vous reste {n} tentative(s).",
+  "signInNotAllowed": "Ce compte ne peut pas se connecter ici. Les administrateurs se connectent sur le tableau de bord.",
+  "signInSuspended": "Ce compte a été suspendu. Contactez le support.",
+  "signInRateLimited": "Trop de tentatives de connexion. Patientez quelques minutes puis réessayez.",
+  "signInFailed": "La connexion a échoué. Vérifiez votre connexion et réessayez.",
+  "resetCodeInvalid": "Ce lien de réinitialisation est invalide ou a expiré. Demandez un nouveau code.",
+  "resetFailed": "Impossible de réinitialiser le mot de passe. Vérifiez votre connexion et réessayez.",
+  "resetRequestNew": "Demander un nouveau code",
+  "demoIncomplete": "Démo : profil incomplet",
+  "demoIncompleteHint": "Se connecter comme candidat auquel il manque des champs obligatoires, pour voir le blocage \"Profil incomplet\" sur une offre.",
+  "lockedTitle": "Compte temporairement suspendu",
+  "lockedBody": "Après 3 tentatives échouées, votre compte est temporairement bloqué. Nous vous avons envoyé un code de vérification pour réinitialiser votre mot de passe.",
+  "lockedCta": "Réinitialiser mon mot de passe",
+  "otpTitle": "Vérification",
+  "otpSubtitle": "Saisissez le code à 6 chiffres envoyé à {target}.",
+  "otpResend": "Renvoyer le code",
+  "otpResendIn": "Renvoyer le code dans {n}s",
+  "verify": "Vérifier",
+  "resetTitle": "Nouveau mot de passe",
+  "resetSubtitle": "Choisissez un nouveau mot de passe sécurisé.",
+  "sendEmailTitle": "Mot de passe oublié",
+  "sendEmailSubtitle": "Saisissez votre email, nous vous enverrons un code de vérification.",
+  "sendCode": "Envoyer le code",
+  "resetViaWhatsapp": "Recevoir le code par WhatsApp",
+  "welcomeEmailSent": "Un email de bienvenue vous a été envoyé."
+ },
+ "gate": {
+  "title": "Créez un compte pour continuer",
+  "body": "L'inscription est gratuite et prend moins d'une minute. Vous pourrez consulter toutes les offres, voir les profils complets et postuler directement.",
+  "signUp": "Créer un compte",
+  "login": "J'ai déjà un compte",
+  "morePages": "Créez un compte pour voir les {n} pages de résultats."
+ },
+ "profile": {
+  "editTitle": "Modifier mon profil",
+  "editSubtitle": "Complétez votre profil pour pouvoir postuler aux offres.",
+  "completion": "Profil complété à {n}%",
+  "incompleteTitle": "Profil incomplet",
+  "incompleteBody": "Vous devez compléter les champs obligatoires avant de postuler à une offre.",
+  "incompleteCta": "Compléter mon profil",
+  "personalInfo": "Informations personnelles",
+  "professionalInfo": "Informations professionnelles",
+  "training": "Formation académique / professionnelle",
+  "addTraining": "Ajouter une formation",
+  "workHistory": "Expériences précédentes",
+  "addExperience": "Ajouter une expérience",
+  "school": "Établissement de formation",
+  "diploma": "Diplôme",
+  "establishment": "Nom de l'établissement",
+  "positionHeld": "Poste occupé",
+  "from": "De",
+  "to": "À",
+  "remove": "Supprimer",
+  "profilePhoto": "Photo de profil",
+  "photoHint": "Une photo professionnelle augmente nettement vos chances d'être recruté.",
+  "photoQualityError": "Cette image est de trop faible qualité. Merci d'en importer une plus nette (min. 600 × 600 px).",
+  "cv": "CV",
+  "cvUpload": "Importer mon CV",
+  "cvBuilder": "Créer mon CV en ligne",
+  "cvUploadHint": "PDF, DOC ou DOCX — 5 Mo maximum.",
+  "cvBuilderHint": "Remplissez vos informations et nous générons votre CV automatiquement.",
+  "foodPhotos": "Photos de vos préparations",
+  "foodPhotosHint": "Jusqu'à {max} photos. Réservé aux métiers de cuisine, boulangerie et pâtisserie.",
+  "foodPhotosLocked": "Les photos de préparations sont réservées aux métiers de cuisine, boulangerie et pâtisserie.",
+  "expectedSalary": "Salaire souhaité",
+  "currentStatus": "Statut actuel",
+  "about": "À propos",
+  "skills": "Compétences",
+  "languages": "Langues",
+  "saveProfile": "Enregistrer mon profil",
+  "savedOk": "Profil enregistré",
+  "contactHidden": "Coordonnées visibles uniquement par les employeurs vérifiés"
+ },
+ "jobs": {
+  "title": "Offres d'emploi",
+  "subtitle": "{n} offres disponibles au Maroc",
+  "searchPlaceholder": "Poste, établissement…",
+  "searchAllHint": "Rechercher dans toute la base sans filtre",
+  "postedOn": "Publiée le",
+  "expiresIn": "Expire dans {n} jours",
+  "expired": "Expirée",
+  "expiringSoon": "Expire bientôt",
+  "applicants": "{n} candidatures",
+  "detailTitle": "Détail de l'offre",
+  "aboutEmployer": "À propos de l'établissement",
+  "similarOffers": "Offres similaires",
+  "applied": "Candidature envoyée",
+  "appliedBody": "Votre candidature a bien été transmise à l'employeur.",
+  "signUpToApply": "S'inscrire pour postuler",
+  "employerViewOnly": "Consultation employeur",
+  "employerViewOnlyBody": "Vous consultez cette offre en tant qu'employeur. La candidature est réservée aux comptes candidats.",
+  "saveJob": "Enregistrer cette offre",
+  "jobSaved": "Offre enregistrée"
+ },
+ "candidates": {
+  "title": "Trouver des profils",
+  "subtitle": "{n} profils disponibles",
+  "searchPlaceholder": "Nom, poste…",
+  "saveProfile": "Enregistrer ce profil",
+  "profileSaved": "Profil enregistré",
+  "yearsExperience": "d'expérience",
+  "availableNow": "Disponible immédiatement",
+  "verified": "Vérifié",
+  "contactRequest": "Demander les coordonnées"
+ },
+ "employer": {
+  "dashboard": "Tableau de bord",
+  "profileTitle": "Profil de l'établissement",
+  "editProfile": "Modifier le profil",
+  "establishmentPhoto": "Photo / logo de l'établissement",
+  "establishmentPhotoHint": "Un logo ou une photo renforce la crédibilité de votre établissement.",
+  "coverPhoto": "Photo de couverture",
+  "coverPhotoHint": "Affichée en haut de votre profil public d'établissement.",
+    "coverQualityError": "Cette image est de trop faible qualité. Merci d'en importer une plus nette (min. 600 × 300 px).",
+  "statusUpdateError": "Impossible de mettre à jour le statut de la candidature. Réessayez.",
+  "phonePublic": "Afficher mon numéro aux candidats",
+  "phonePublicHint": "Désactivé, votre numéro reste masqué. Les candidats vous contactent via la plateforme.",
+  "socialLinks": "Réseaux sociaux",
+  "saveAndRecruit": "Enregistrer et continuer vers le recrutement",
+  "findBestProfiles": "Trouver les meilleurs profils",
+  "postJob": "Publier une offre",
+  "myOffers": "Mes offres",
+  "activeOffers": "Offres actives",
+  "pendingOffers": "En attente de validation",
+  "expiredOffers": "Offres expirées",
+  "applicants": "Candidatures reçues",
+  "savedProfiles": "Profils enregistrés",
+  "savedProfilesHint": "Les profils que vous avez enregistrés pendant vos recherches, sans qu'ils aient postulé.",
+  "noSavedProfiles": "Vous n'avez encore enregistré aucun profil.",
+  "noApplicants": "Aucune candidature pour le moment.",
+  "republish": "Republier",
+  "republished": "Offre renvoyée pour validation",
+  "edit": "Modifier",
+  "deactivate": "Désactiver",
+  "viewApplicants": "Voir les candidats",
+  "postJobTitle": "Publier une offre d'emploi",
+  "postJobSubtitle": "Toutes les offres sont vérifiées par l'administration avant publication.",
+  "jobTitle": "Intitulé du poste",
+  "jobDescription": "Description du poste",
+  "deadline": "Date limite",
+  "deadlineHint": "60 jours maximum. L'offre sera automatiquement retirée des offres actives à cette date.",
+  "publish": "Publier l'offre",
+  "pendingApprovalTitle": "Votre offre est en cours de validation",
+  "pendingApprovalBody": "Elle sera visible par les candidats dès qu'elle aura été approuvée par l'administration.",
+  "approved": "Approuvée",
+  "pending": "En attente",
+  "stats": {
+   "activeOffers": "Offres actives",
+   "applicants": "Candidatures",
+   "profileViews": "Vues du profil",
+   "savedProfiles": "Profils enregistrés"
+  }
+ },
+ "dashboard": {
+  "title": "Mon tableau de bord",
+  "welcome": "Bonjour {name} !",
+  "myApplications": "Mes candidatures",
+  "noApplications": "Vous n'avez encore postulé à aucune offre.",
+  "browseOffers": "Parcourir les offres",
+  "profileStrength": "Profil complété",
+  "recommended": "Offres recommandées pour vous",
+  "stats": {
+   "completeProfile": "Profil complété",
+   "profileViews": "Vues du profil",
+   "applications": "Candidatures",
+   "profileStatus": "Statut du profil",
+   "verified": "Vérifié",
+   "pending": "En attente",
+   "views": "Vues de mon profil",
+   "saved": "Employeurs intéressés"
+  },
+  "subtitle": "Gérez votre profil et suivez vos candidatures",
+  "myProfile": "Mon profil",
+  "completeProfile": "Profil complété",
+  "verifiedProfile": "Profil vérifié",
+  "notVerified": "Profil non vérifié",
+  "editProfile": "Modifier mon profil",
+  "viewPublicProfile": "Voir mon profil public",
+  "quickActions": "Actions rapides",
+  "viewProfiles": "Voir les profils",
+  "searchOffers": "Rechercher des offres",
+  "seeAllOffers": "Voir toutes les offres",
+  "appliedOn": "Candidature envoyée le {date}"
+ },
+ "notifications": {
+  "title": "Notifications",
+  "empty": "Aucune notification",
+  "markRead": "Marquer comme lu",
+  "markAllRead": "Tout marquer comme lu",
+  "markAllError": "Impossible de marquer les notifications comme lues. Réessayez.",
+  "new": "Nouveau"
+ },
+ "feedback": {
+  "button": "Votre avis",
+  "title": "Aidez-nous à améliorer Nkhedmou.ma",
+  "usingAs": "J'utilise Nkhedmou.ma en tant que :",
+  "asCook": "Candidat à la recherche d'un emploi",
+  "asEmployer": "Employeur à la recherche de profils",
+  "helpful": "Nkhedmou.ma vous a-t-il aidé à atteindre votre objectif ?",
+  "helpfulYes": "Oui, très utile",
+  "helpfulNo": "Non, j'ai besoin d'aide",
+  "rating": "Comment évaluez-vous votre expérience ?",
+  "ratingHint": "Cliquez pour noter votre expérience",
+  "comments": "Commentaires ou suggestions (facultatif)",
+  "commentsPlaceholder": "Dites-nous comment améliorer la plateforme…",
+  "later": "Plus tard",
+  "submit": "Envoyer mon avis",
+  "thanks": "Merci pour votre retour !",
+  "selectOption": "Merci de sélectionner une option"
+ },
+ "admin": {
+  "title": "Administration",
+  "overview": "Vue d'ensemble",
+  "candidates": "Candidats",
+  "employers": "Employeurs",
+  "offers": "Offres",
+  "moderation": "Modération",
+  "feedback": "Retours utilisateurs",
+  "activity": "Journal d'activité",
+  "roles": "Administrateurs",
+  "banners": "Bannières",
+  "backToSite": "Retour au site",
+  "search": "Rechercher…",
+  "export": "Exporter en Excel",
+  "exported": "Export généré",
+  "actions": "Actions",
+  "noRows": "Aucun résultat",
+  "confirmDelete": "Confirmer la suppression ?",
+  "stats": {
+   "candidates": "Statistiques candidats",
+   "employers": "Statistiques employeurs",
+   "offers": "Statistiques des offres",
+   "platform": "Statistiques de la plateforme",
+   "total": "Total",
+   "newToday": "Nouveaux aujourd'hui",
+   "newThisWeek": "Nouveaux cette semaine",
+   "newThisMonth": "Nouveaux ce mois",
+   "active": "Actifs",
+   "complete": "Profils complétés à 100%",
+   "verified": "Vérifiés",
+   "availableNow": "Disponibles immédiatement",
+   "pending": "En attente de vérification",
+   "blocked": "Bloqués",
+   "byType": "Répartition par type",
+   "activeOffers": "Offres actives",
+   "postedToday": "Publiées aujourd'hui",
+   "postedThisMonth": "Publiées ce mois",
+   "expiringSoon": "Expirent sous 7 jours",
+   "expired": "Expirées",
+   "closed": "Clôturées",
+   "pendingApproval": "En attente d'approbation",
+   "reported": "Signalées",
+   "topTitles": "Postes les plus recherchés",
+   "topCities": "Villes les plus recherchées",
+   "avgSalary": "Salaire moyen proposé",
+   "searches": "recherches"
+  },
+  "candidate": {
+   "title": "Base de données CV",
+   "subtitle": "{n} candidats inscrits",
+   "name": "Nom",
+   "registered": "Inscription",
+   "lastLogin": "Dernière connexion",
+   "completion": "Complétude",
+   "view": "Voir le profil",
+   "edit": "Modifier",
+   "verify": "Vérifier",
+   "unverify": "Retirer la vérification",
+   "deactivate": "Désactiver",
+   "activate": "Réactiver",
+   "delete": "Supprimer",
+   "restore": "Restaurer",
+   "addSkill": "Ajouter une compétence",
+   "history": "Historique du profil",
+   "applications": "Candidatures",
+   "contactRequests": "Employeurs ayant demandé les coordonnées",
+   "verified": "Vérifié",
+   "notVerified": "Non vérifié",
+   "deactivated": "Désactivé"
+  },
+  "employer": {
+   "title": "Gestion des employeurs",
+   "subtitle": "{n} établissements inscrits",
+   "offersPublished": "Offres publiées",
+   "offersActive": "Offres actives",
+   "applicationsReceived": "Candidatures reçues",
+   "profilesViewed": "Profils consultés",
+   "contactRequests": "Demandes de coordonnées",
+   "lastActivity": "Dernière activité",
+   "verify": "Vérifier",
+   "block": "Bloquer",
+   "unblock": "Débloquer"
+  },
+  "offer": {
+   "title": "Gestion des offres",
+   "subtitle": "{n} offres au total",
+   "approve": "Approuver",
+   "reject": "Rejeter",
+   "extend": "Prolonger exceptionnellement",
+   "republish": "Republier",
+   "deactivate": "Désactiver",
+   "delete": "Supprimer",
+   "approved": "Approuvée",
+   "rejected": "Rejetée",
+   "pendingQueue": "File d'attente d'approbation",
+   "allOffers": "Toutes les offres",
+   "reported": "Offres signalées",
+   "employer": "Employeur",
+   "posted": "Publiée",
+   "expires": "Expire"
+  },
+  "moderationPage": {
+   "title": "Modération des photos",
+   "subtitle": "{n} photos en attente de validation",
+   "approve": "Approuver",
+   "remove": "Retirer",
+   "blockUser": "Bloquer l'utilisateur",
+   "reports": "{n} signalement(s)",
+   "profilePhoto": "Photo de profil",
+   "foodPhoto": "Photo de préparation",
+   "empty": "Aucune photo en attente",
+   "reportedOffers": "Offres signalées"
+  },
+  "feedbackPage": {
+   "title": "Retours utilisateurs",
+   "subtitle": "{n} messages, {p} sans réponse",
+   "reply": "Répondre",
+   "replyPlaceholder": "Votre réponse sera envoyée par email et affichée sur la plateforme…",
+   "send": "Envoyer la réponse",
+   "replied": "Réponse envoyée",
+   "yourReply": "Votre réponse",
+   "awaiting": "Sans réponse",
+   "notifyNote": "L'utilisateur recevra une notification sur le site et par email."
+  },
+  "activityPage": {
+   "title": "Journal d'activité",
+   "subtitle": "Actions administratives, accès aux coordonnées et imports de photos",
+   "all": "Tout",
+   "adminActions": "Actions administrateur",
+   "contactAccess": "Accès aux coordonnées",
+   "photoUploads": "Imports de photos",
+   "actor": "Auteur",
+   "target": "Cible",
+   "detail": "Détail",
+   "when": "Date"
+  },
+  "rolesPage": {
+   "title": "Administrateurs et permissions",
+   "subtitle": "Le compte principal conserve le contrôle total",
+   "addAdmin": "Créer un sous-administrateur",
+   "superAdmin": "Administrateur principal",
+   "subAdmin": "Sous-administrateur",
+   "permissions": "Permissions",
+   "lastActive": "Dernière activité",
+   "fullControl": "Contrôle total",
+   "revoke": "Révoquer l'accès"
+  }
+ },
+ "footer": {
+  "about": "À propos",
+  "aboutText": "Nkhedmou.ma met en relation les professionnels de la restauration et de l'hôtellerie avec les établissements qui recrutent au Maroc.",
+  "quickLinks": "Liens rapides",
+  "forCandidates": "Candidats",
+  "forEmployers": "Employeurs",
+  "legal": "Informations légales",
+  "terms": "Conditions générales",
+  "privacy": "Politique de confidentialité",
+  "contact": "Nous contacter",
+  "aboutUs": "Qui sommes-nous",
+  "rights": "Tous droits réservés."
+ },
+ "about": {
+  "intro1": "Nkhedmou.ma — « nkhedmou » veut dire « on travaille » en darija — est né d'un constat simple : au Maroc, les cuisiniers, boulangers, pâtissiers et le personnel d'hôtellerie trouvent encore leur travail par le bouche-à-oreille, tandis que les restaurants et les hôtels peinent à recruter des profils qualifiés.",
+  "intro2": "Notre objectif est de rassembler ces deux mondes au même endroit, avec une plateforme simple, sécurisée et pensée d'abord pour le mobile, puisque c'est là que se trouvent la plupart de nos utilisateurs.",
+  "candidatesTitle": "Pour les candidats",
+  "candidatesBody": "Créez un profil complet ou générez votre CV directement sur la plateforme, puis postulez aux offres près de chez vous. L'inscription est gratuite.",
+  "employersTitle": "Pour les employeurs",
+  "employersBody": "Publiez vos offres, filtrez les profils par ville, secteur, poste et expérience, et gardez de côté les candidats qui vous intéressent.",
+  "verifiedTitle": "Des offres vérifiées",
+  "verifiedBody": "Chaque offre d'emploi est contrôlée et approuvée par notre équipe avant d'être publiée. Les coordonnées des candidats sont protégées.",
+  "languagesTitle": "En français, en darija et en anglais",
+  "languagesBody": "Toute la plateforme est disponible en français, en arabe marocain et en anglais, pour que la langue ne soit jamais un obstacle."
+ },
+ "privacySections": [
+  {
+   "title": "Quelles données collectons-nous ?",
+   "body": [
+    "À l'inscription, nous collectons uniquement votre prénom, votre nom, votre adresse email et votre mot de passe.",
+    "Lorsque vous complétez votre profil, vous pouvez ajouter votre numéro de téléphone, votre ville, votre secteur, votre poste, votre expérience, votre formation, vos expériences précédentes, une photo de profil, un CV et, pour certains métiers de cuisine et de pâtisserie, des photos de vos préparations."
+   ]
+  },
+  {
+   "title": "Protection de vos coordonnées",
+   "body": [
+    "Votre numéro de téléphone n'est jamais affiché publiquement. Il n'est accessible qu'aux employeurs vérifiés, dans le cadre des règles de recrutement de la plateforme.",
+    "Chaque accès d'un employeur à vos coordonnées est enregistré et traçable par l'administration.",
+    "Les employeurs disposent également d'une option leur permettant de masquer leur propre numéro de téléphone aux candidats."
+   ]
+  },
+  {
+   "title": "Fichiers importés",
+   "body": [
+    "Les CV et les photos sont contrôlés avant d'être stockés : type de fichier, taille et qualité d'image sont vérifiés.",
+    "Les fichiers ne correspondant pas aux formats autorisés sont refusés. Un CV doit être au format PDF, DOC ou DOCX et ne pas dépasser 5 Mo.",
+    "L'administration peut retirer toute photo inappropriée et bloquer un compte en cas d'envois abusifs répétés."
+   ]
+  },
+  {
+   "title": "Journal d'activité",
+   "body": [
+    "La plateforme conserve un historique des actions administratives importantes, des accès aux coordonnées des candidats et des envois de photos."
+   ]
+  },
+  {
+   "title": "Modération des offres et des profils",
+   "body": [
+    "Toutes les offres d'emploi sont contrôlées et approuvées par l'administration avant publication.",
+    "Vous êtes notifié sur la plateforme et par email lorsque votre profil ou votre offre est approuvé."
+   ]
+  },
+  {
+   "title": "Vos droits",
+   "body": [
+    "Vous pouvez à tout moment consulter, corriger ou supprimer les informations de votre profil depuis la page « Modifier mon profil ».",
+    "Pour toute demande relative à vos données, écrivez-nous à contact@nkhedmou.ma."
+   ]
+  }
+ ],
+ "privacyIntro": "Cette politique explique quelles données Nkhedmou.ma collecte, comment elles sont utilisées et comment elles sont protégées.",
+ "termsSections": [
+  {
+   "title": "1. Objet de la plateforme",
+   "body": [
+    "Nkhedmou.ma met en relation les professionnels de la restauration, de la boulangerie-pâtisserie et de l'hôtellerie avec les établissements qui recrutent au Maroc.",
+    "La plateforme est un intermédiaire : elle n'est pas l'employeur et n'est pas partie au contrat de travail conclu entre un candidat et un établissement."
+   ]
+  },
+  {
+   "title": "2. Inscription et compte",
+   "body": [
+    "L'inscription est gratuite et requiert un prénom, un nom, une adresse email et un mot de passe.",
+    "Votre mot de passe doit contenir au moins une majuscule, une minuscule, un chiffre et un caractère spécial.",
+    "Après trois tentatives de connexion échouées, votre compte est temporairement suspendu et un code de vérification vous est envoyé pour réinitialiser votre mot de passe.",
+    "Vous êtes responsable de l'exactitude des informations de votre profil."
+   ]
+  },
+  {
+   "title": "3. Accès des visiteurs",
+   "body": [
+    "Les visiteurs non inscrits peuvent consulter la première page des offres et des profils. La consultation d'une offre ou d'un profil complet nécessite la création d'un compte."
+   ]
+  },
+  {
+   "title": "4. Offres d'emploi",
+   "body": [
+    "Toutes les offres publiées par les employeurs sont contrôlées et approuvées par l'administration avant d'être visibles par les candidats.",
+    "La durée maximale de publication d'une offre est de 60 jours. Passé ce délai, l'offre est automatiquement retirée des offres actives.",
+    "Une offre expirée reste consultable dans l'historique de l'employeur, avec les candidatures reçues, et peut être republiée.",
+    "L'administration se réserve le droit de refuser, modifier ou retirer toute offre non conforme."
+   ]
+  },
+  {
+   "title": "5. Contenus publiés",
+   "body": [
+    "Vous garantissez détenir les droits sur les photos et documents que vous importez.",
+    "Les photos de préparations culinaires sont réservées aux métiers de cuisine, de boulangerie et de pâtisserie, et sont limitées à 8 photos par profil.",
+    "L'administration peut retirer tout contenu inapproprié et bloquer les comptes en cas de manquements répétés."
+   ]
+  },
+  {
+   "title": "6. Confidentialité des coordonnées",
+   "body": [
+    "Les numéros de téléphone des candidats ne sont pas publics et ne sont accessibles qu'aux employeurs vérifiés, dans le cadre des règles de recrutement de la plateforme.",
+    "Toute consultation de coordonnées est enregistrée et traçable.",
+    "L'utilisation des coordonnées à des fins de démarchage, de revente ou de collecte massive est strictement interdite et entraîne la fermeture du compte."
+   ]
+  },
+  {
+   "title": "7. Publicité",
+   "body": [
+    "La plateforme affiche des espaces publicitaires. Nkhedmou.ma n'est pas responsable du contenu ou des offres des annonceurs tiers."
+   ]
+  },
+  {
+   "title": "8. Contact",
+   "body": [
+    "Pour toute question relative aux présentes conditions : contact@nkhedmou.ma"
+   ]
+  }
+ ],
+ "termsIntro": "En créant un compte sur Nkhedmou.ma, vous acceptez les conditions ci-dessous.",
+ "contact": {
+  "subtitle": "Une question, une suggestion ou un problème ? Écrivez-nous, nous répondons à chaque message."
+ }
+}
