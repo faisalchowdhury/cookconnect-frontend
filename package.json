@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 6003",
-    "build": "next build",
-    "start": "next start -p 6003",
+    "dev": "node api.js && next dev -p 6003",
+    "build": "node api.js && next build",
+    "start": "node api.js && next start -p 6003",
     "lint": "eslint ."
   },
   "dependencies": {

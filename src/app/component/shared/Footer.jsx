@@ -38,30 +38,58 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="mb-4 flex items-center gap-2">
-              <Image src={logo} alt="" width={44} height={44} className="h-11 w-11 object-contain" />
+              <Image
+                src={logo}
+                alt=""
+                width={44}
+                height={44}
+                className="h-11 w-11 object-contain"
+              />
               <span className="text-lg font-bold">{t("brand.name")}</span>
             </div>
             <p className="max-w-xs text-sm leading-relaxed text-gray-300">
               {t("footer.aboutText")}
             </p>
             <div className="mt-6 flex gap-4">
-              {[FaFacebookF, FaSquareInstagram, FaXTwitter, FaLinkedinIn, IoLogoYoutube].map((Icon, i) => (
-                <a key={i} href="#" aria-label="social" className="text-gray-400 transition hover:text-white">
+              {[
+                FaFacebookF,
+                FaSquareInstagram,
+                FaXTwitter,
+                FaLinkedinIn,
+                IoLogoYoutube,
+              ].map((Icon, i) => (
+                <a
+                  key={i}
+                  href="#"
+                  aria-label="social"
+                  className="text-gray-400 transition hover:text-white"
+                >
                   <Icon className="text-lg" />
                 </a>
               ))}
             </div>
           </div>
 
-          <FooterColumn title={t("footer.forCandidates")} links={candidateLinks} />
-          <FooterColumn title={t("footer.forEmployers")} links={employerLinks} />
+          <FooterColumn
+            title={t("footer.forCandidates")}
+            links={candidateLinks}
+          />
+          <FooterColumn
+            title={t("footer.forEmployers")}
+            links={employerLinks}
+          />
 
           <div>
-            <h3 className="mb-5 text-base font-semibold">{t("footer.legal")}</h3>
+            <h3 className="mb-5 text-base font-semibold">
+              {t("footer.legal")}
+            </h3>
             <ul className="space-y-3">
               {legalLinks.map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} className="text-sm text-gray-300 transition hover:text-white">
+                  <Link
+                    href={l.href}
+                    className="text-sm text-gray-300 transition hover:text-white"
+                  >
                     {l.label}
                   </Link>
                 </li>
@@ -78,7 +106,7 @@ const Footer = () => {
               </a>
               <p className="flex items-center gap-2 text-sm text-gray-300">
                 <MdPhone className="text-lg text-gray-400" />
-                +212 5 22 XX XX XX
+                +212 6 50 35 71 29
               </p>
             </div>
           </div>
@@ -99,7 +127,10 @@ function FooterColumn({ title, links }) {
       <ul className="space-y-3">
         {links.map((l) => (
           <li key={l.href}>
-            <Link href={l.href} className="text-sm text-gray-300 transition hover:text-white">
+            <Link
+              href={l.href}
+              className="text-sm text-gray-300 transition hover:text-white"
+            >
               {l.label}
             </Link>
           </li>
